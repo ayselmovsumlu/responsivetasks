@@ -1,13 +1,66 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-
-a {
-  color: orange;
+body section {
+  padding: 50px 0;
 }
 
-a:hover {
-  color: black;
+#demo .box {
+  border: 2px solid #274a16;
+  background-color: #417ba7;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*# sourceMappingURL=style.css.map */
+#demo .box .minibox {
+  background-color: #245376;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  transition: 3s;
+}
+#demo .box .minibox:hover {
+  width: 150px;
+  height: 150px;
+}
+
+#demo2 .box {
+  border: 5px solid #8d2182;
+  background-color: #8d2182;
+  color: white;
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 0;
+  transition: 3s;
+}
+#demo2 .box:hover {
+  background-color: #40123c;
+}
+
+#demo3 .box {
+  background-color: #9d5f2f;
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 0;
+  transition: 3s;
+}
+#demo3 .box:hover {
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
