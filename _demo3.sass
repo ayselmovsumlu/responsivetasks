@@ -1,5 +1,5 @@
 #demo3
-    .box
+    .minibox
         background-color: #9d5f2f
         color: #ffff
         width: 200px
@@ -9,8 +9,17 @@
         align-items: center
         border-radius: 50%
         font-size: 30px
-        font-weight: 700 
+        font-weight: 700
         padding: 10px 0
         transition: 3s
         &:hover
             border-radius: 5px
+
+    @media screen and ( max-width: 800px )
+        .minibox
+            width: 60px
+            height: 60px
+            background-color: #699446
+        .box
+            flex-direction: column
+    

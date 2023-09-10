@@ -32,7 +32,7 @@ body section {
   height: 150px;
 }
 
-#demo2 .box {
+#demo2 .minibox {
   border: 5px solid #8d2182;
   background-color: #8d2182;
   color: white;
@@ -43,11 +43,30 @@ body section {
   padding: 10px 0;
   transition: 3s;
 }
-#demo2 .box:hover {
+#demo2 .minibox:hover {
   background-color: #40123c;
 }
+@media screen and (max-width: 800px) {
+  #demo2 .minibox {
+    width: 90px;
+    height: 50px;
+    background-color: #6a5e95;
+    border: none;
+  }
+  #demo2 .box {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo2 .minibox {
+    width: 40px;
+    height: 40px;
+    background-color: #361a32;
+    font-size: 12px;
+  }
+}
 
-#demo3 .box {
+#demo3 .minibox {
   background-color: #9d5f2f;
   color: white;
   width: 200px;
@@ -61,6 +80,50 @@ body section {
   padding: 10px 0;
   transition: 3s;
 }
-#demo3 .box:hover {
+#demo3 .minibox:hover {
   border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+  #demo3 .minibox {
+    width: 60px;
+    height: 60px;
+    background-color: #699446;
+  }
+  #demo3 .box {
+    flex-direction: column;
+  }
+}
+
+#demo4 .box {
+  position: relative;
+}
+#demo4 .minibox {
+  background-color: #2b5270;
+  width: 280px;
+  height: 190px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 10px;
+  padding: 80px 0;
+}
+#demo4 .abs {
+  position: absolute;
+  left: 280px;
+}
+
+#demo5 .box {
+  position: relative;
+}
+#demo5 .minibox {
+  background-color: #43a157;
+  width: 280px;
+  height: 190px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 10px;
+  padding: 80px 0;
+}
+#demo5 .abs {
+  position: absolute;
+  left: 280px;
 }/*# sourceMappingURL=style.css.map */
