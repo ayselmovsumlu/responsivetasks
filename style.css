@@ -11,8 +11,6 @@ body section {
   background-color: #417ba7;
   width: 200px;
   height: 200px;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 #demo .box .minibox {
@@ -25,7 +23,7 @@ body section {
   align-items: center;
   width: 100px;
   height: 100px;
-  transition: 3s;
+  transition: 2s;
 }
 #demo .box .minibox:hover {
   width: 150px;
@@ -41,7 +39,7 @@ body section {
   border-radius: 5px;
   font-size: 20px;
   padding: 10px 0;
-  transition: 3s;
+  transition: 2s;
 }
 #demo2 .minibox:hover {
   background-color: #40123c;
@@ -71,13 +69,10 @@ body section {
   color: white;
   width: 200px;
   height: 200px;
-  display: flex;
-  justify-content: center;
   align-items: center;
   border-radius: 50%;
   font-size: 30px;
   font-weight: 700;
-  padding: 10px 0;
   transition: 3s;
 }
 #demo3 .minibox:hover {
