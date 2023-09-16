@@ -3,11 +3,11 @@ body {
   font-weight: 500;
 }
 body section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 #demo .box {
-  border: 2px solid #274a16;
+  border: 2px solid #2e521c;
   background-color: #417ba7;
   width: 200px;
   height: 200px;
@@ -30,7 +30,7 @@ body section {
   height: 150px;
 }
 
-#demo2 .minibox {
+#demo2 .btn {
   border: 5px solid #8d2182;
   background-color: #8d2182;
   color: white;
@@ -41,22 +41,19 @@ body section {
   padding: 10px 0;
   transition: 2s;
 }
-#demo2 .minibox:hover {
+#demo2 .btn:hover {
   background-color: #40123c;
 }
 @media screen and (max-width: 800px) {
-  #demo2 .minibox {
+  #demo2 .btn {
     width: 90px;
     height: 50px;
     background-color: #6a5e95;
     border: none;
   }
-  #demo2 .box {
-    flex-direction: column;
-  }
 }
 @media screen and (max-width: 500px) {
-  #demo2 .minibox {
+  #demo2 .btn {
     width: 40px;
     height: 40px;
     background-color: #361a32;
@@ -76,13 +73,13 @@ body section {
   transition: 3s;
 }
 #demo3 .minibox:hover {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 @media screen and (max-width: 800px) {
   #demo3 .minibox {
     width: 60px;
     height: 60px;
-    background-color: #699446;
+    background-color: #95a03f;
   }
   #demo3 .box {
     flex-direction: column;
@@ -93,7 +90,7 @@ body section {
   position: relative;
 }
 #demo4 .minibox {
-  background-color: #2b5270;
+  background-color: #26608c;
   width: 280px;
   height: 190px;
   font-size: 25px;
@@ -110,7 +107,7 @@ body section {
   position: relative;
 }
 #demo5 .minibox {
-  background-color: #79bb88;
+  background-color: #659c49;
   width: 280px;
   height: 190px;
   font-size: 25px;
